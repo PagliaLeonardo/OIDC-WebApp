@@ -129,8 +129,6 @@
   <button @click="adminResourceButton">Admin area</button>
 </div>
 
-
-
 <div>
   <h2>Logout</h2>
 </div>
@@ -138,7 +136,6 @@
 <div>
   <button @click="logoutbutton">Logout</button>
 </div>
-
 
 <footer>
 
