@@ -1,0 +1,44 @@
+npm init -y
+npm install express --save
+npm install http
+npm install socket.io
+npm install cors
+npm install dotenv
+npm start
+npm install typescript --save-dev
+npx tsc example.ts
+npx tsc --init
+npm i --save-dev ts-node-dev
+npm i --save-dev @types/express
+npm install nodemon
+#"dev": "nodemon"
+nodemon.json
+{
+    "watch": [
+      "src",
+      ".env",
+      "package.json"
+    ],
+    "ext": "js,ts,json,env",
+    "ignore": [
+      "dist/**/*"
+    ],
+    "exec": "ts-node-dev ./src/index.ts || exit 1"
+  }
+ "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+npm run dev
+
+npm install express express-session @types/express express-session @types/express-session
+npm i cookie-parser
+
+npm install https
+npm install fs
+
+kc.bat start-dev --https-certificate-file=kc.pem --https-certificate-key-file=kc.key
+//security headers
+npm install helmet

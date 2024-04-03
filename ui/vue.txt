@@ -1,0 +1,50 @@
+Microsoft Windows [Versione 10.0.22631.3155]
+(c) Microsoft Corporation. Tutti i diritti riservati.
+
+C:\Users\LPaglia\Desktop\Athesys\project\ui>npm create vue@latest
+
+Vue.js - The Progressive JavaScript Framework
+
+√ Project name: ... app
+√ Add TypeScript? ... No / Yes
+√ Add JSX Support? ... No / Yes
+√ Add Vue Router for Single Page Application development? ... No / Yes
+√ Add Pinia for state management? ... No / Yes
+√ Add Vitest for Unit Testing? ... No / Yes
+√ Add an End-to-End Testing Solution? » No
+√ Add ESLint for code quality? ... No / Yes
+√ Add Vue DevTools extension for debugging? (experimental) ... No / Yes
+
+Scaffolding project in C:\Users\LPaglia\Desktop\Athesys\project\ui\app...
+
+Done. Now run:
+
+  cd app
+  npm install
+  npm run dev
+
+
+C:\Users\LPaglia\Desktop\Athesys\project\ui>cd app
+
+C:\Users\LPaglia\Desktop\Athesys\project\ui\app>npm install
+
+added 134 packages, and audited 135 packages in 14s
+
+16 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\LPaglia\Desktop\Athesys\project\ui\app>npm run dev
+
+> app@0.0.0 dev
+> vite
+
+
+  VITE v5.1.6  ready in 629 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+

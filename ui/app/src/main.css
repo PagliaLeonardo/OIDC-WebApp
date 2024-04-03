@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*importo  open sans font*/
+.text{text-align: center; font-weight: bold;}
+
+legend{ font-weight: bold;}
+
+.subfieldset {
+display: block;
+margin-left: 12em;
+margin-right: 12em;
+margin-top: 0.25em;
+margin-bottom: 0.25em;
+padding-top: 0.35em;
+padding-bottom: 0.625em;
+padding-left: 0.25em;
+padding-right: 0.25em;
+border: 0.1em groove;
+background-color: #eeeeee;
+text-align: center;
+}
+
+label:after{content:":";}
+
+.superfieldset {
+display: block;
+margin-left: 12em;
+margin-right: 12em;
+padding-top: 0.15em;
+padding-bottom: 0.15em;
+padding-left: 0.75em;
+padding-right: 0.75em;
+border: 0.25em groove;
+border-color: #000;
+background-color: #eeeeee;
+text-align: center;
+}      
+
+/* preso in parte da https://www.free-css.com/free-css-templates/page282/khaki-v2*/
+body {
+    background: #000;
+
+    /*background: -webkit-gradient(left top, left bottom, color-stop(0%, #eeeeee), color-stop(75%, #000000), color-stop(100%, #000000)); */
+    background: linear-gradient(to bottom, #eeeeee 0%, #000000 75%, #2c2b2b 100%); /*fondopagina*/
+
+    color: #111;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    min-width: 600px;
+}               
+
+a {
+    background-color: inherit;
+    color: #996;
+    text-decoration: underline;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited{color:violet}
+
+
+input:focus {background: lightgray;}
+
+.center{background-color: rgb(163, 238, 238);}
+
+.top{
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+.foot{color:white;}
+
+.submit:hover {cursor: pointer;}
+
+.submit{                
+    width: 5em;
+    height: 2.5em; 
+    cursor:pointer;
+    box-shadow: rgb(174, 174, 174);
+}
+
+.submit:active {
+
+    top:2px
+}

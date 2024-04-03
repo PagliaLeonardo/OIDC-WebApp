@@ -1,0 +1,1 @@
+sonar-scanner.bat -D"sonar.projectKey=atesys-project" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqp_5af907bdd22325b75d9f79c1e74d5fdf57e0ae20"
