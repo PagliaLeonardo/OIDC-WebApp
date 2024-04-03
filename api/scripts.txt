@@ -42,3 +42,16 @@ npm install fs
 kc.bat start-dev --https-certificate-file=kc.pem --https-certificate-key-file=kc.key
 //security headers
 npm install helmet
+
+
+github
+git init
+git add .
+git commit -m "Your msg" -a
+git remote add origin https://github.com/yourUsername/yourRepository.gi
+git push -u origin master
+
+per commentare
+git add .
+git commit -m "Your msg" -a
+git push origin master
